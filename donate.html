@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Support Dua Foundation's mission by making a donation. Your contribution helps fund education, healthcare, agriculture, and community welfare programs." />
+  <title>Donate — Dua Foundation</title>
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/donate.css" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <a href="index.html" class="nav-logo" aria-label="Dua Foundation Home">
+        <img src="images/Dua_logo.jpg" alt="Dua Foundation Logo">
+        <div class="nav-logo-text">
+          <span class="org-name">Dua Foundation</span>
+          <span class="tagline">Serving Humanity with Faith</span>
+        </div>
+      </a>
+
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="activities.html">Activities</a>
+        <a href="donate.html" class="active">Donate</a>
+        <a href="contact.html">Contact</a>
+        <a href="donate.html" class="nav-donate-btn">Donate <i class="fas fa-heart"></i></a>
+      </div>
+
+      <div class="nav-toggle" aria-label="Toggle navigation menu" role="button" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Overlay -->
+  <div class="nav-overlay"></div>
+
+  <!-- ========== PAGE BANNER ========== -->
+  <section class="page-banner">
+    <div class="page-banner-content">
+      <h1>Donate</h1>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span>›</span>
+        <span>Donate</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== DONATE HERO ========== -->
+  <section class="donate-hero">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-subtitle">Give Generously</span>
+        <h2 class="section-title">Your Charity, Their Hope</h2>
+      </div>
+      <p class="donate-intro animate-on-scroll delay-1">
+        In Islam, charity (<em>Sadaqah</em>) is not just a noble act — it is a fundamental pillar of our faith.
+        The Prophet Muhammad ﷺ said, <em>"Charity does not decrease wealth."</em> Every contribution you make,
+        no matter how small, brings light to someone living in darkness. Your generosity provides education
+        to children, healthcare to the sick, food to the hungry, and hope to communities in need.
+        Join us in fulfilling this sacred duty.
+      </p>
+    </div>
+  </section>
+
+  <!-- ========== DONATE SECTION ========== -->
+  <section class="donate-section">
+    <div class="container">
+      <div class="donate-grid">
+
+        <!-- LEFT: Donation Form -->
+        <div class="donate-amounts animate-on-scroll">
+          <h3>Choose Your Donation</h3>
+
+          <!-- Preset Amount Buttons -->
+          <div class="amount-grid">
+            <button class="amount-btn" type="button">৳500</button>
+            <button class="amount-btn" type="button">৳1,000</button>
+            <button class="amount-btn" type="button">৳2,500</button>
+            <button class="amount-btn selected" type="button">৳5,000</button>
+            <button class="amount-btn" type="button">৳10,000</button>
+            <button class="amount-btn" type="button">৳25,000</button>
+          </div>
+
+          <!-- Custom Amount -->
+          <div class="custom-amount">
+            <label for="customAmount">Or enter custom amount</label>
+            <div class="amount-input-wrapper">
+              <span class="currency">৳</span>
+              <input type="number" id="customAmount" placeholder="Enter amount" min="1" aria-label="Custom donation amount" />
+            </div>
+          </div>
+
+          <!-- Donation Type -->
+          <div class="donate-type">
+            <label>Donation Type</label>
+            <div class="donate-type-btns">
+              <button class="type-btn active" type="button">One-Time</button>
+              <button class="type-btn" type="button">Monthly</button>
+            </div>
+          </div>
+
+          <!-- Submit -->
+          <button class="donate-submit" type="button">Donate Now <i class="fas fa-hand-holding-heart"></i></button>
+        </div>
+
+        <!-- RIGHT: Why Donate -->
+        <div class="why-donate animate-on-scroll delay-2">
+          <h3>Why Your Donation Matters</h3>
+
+          <div class="why-item">
+            <div class="why-icon"><i class="fas fa-book"></i></div>
+            <div class="why-content">
+              <h4>Education</h4>
+              <p>Fund scholarships for underprivileged students and help build a brighter future through knowledge.</p>
+            </div>
+          </div>
+
+          <div class="why-item">
+            <div class="why-icon"><i class="fas fa-hospital"></i></div>
+            <div class="why-content">
+              <h4>Healthcare</h4>
+              <p>Support charitable hospital operations and free medical camps for underserved communities.</p>
+            </div>
+          </div>
+
+          <div class="why-item">
+            <div class="why-icon"><i class="fas fa-wheat-awn"></i></div>
+            <div class="why-content">
+              <h4>Livelihood</h4>
+              <p>Enable sustainable farming and income-generating activities that empower families to thrive.</p>
+            </div>
+          </div>
+
+          <div class="why-item">
+            <div class="why-icon"><i class="fas fa-house"></i></div>
+            <div class="why-content">
+              <h4>Community</h4>
+              <p>Improve living standards and infrastructure in rural and disadvantaged areas.</p>
+            </div>
+          </div>
+
+          <div class="why-item">
+            <div class="why-icon"><i class="fas fa-child"></i></div>
+            <div class="why-content">
+              <h4>Orphan Care</h4>
+              <p>Provide shelter, nutrition, education, and emotional support for orphans and vulnerable children.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ISLAMIC CHARITY VERSE ========== -->
+  <section class="donate-reminder bg-cream">
+    <div class="container animate-on-scroll">
+      <div class="islamic-divider">
+        <span class="islamic-star"></span>
+      </div>
+
+      <p class="verse-arabic">
+        مَّثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ فِى سَبِيلِ ٱللَّهِ كَمَثَلِ حَبَّةٍ أَنۢبَتَتْ سَبْعَ سَنَابِلَ فِى كُلِّ سُنۢبُلَةٍ مِّا۟ئَةُ حَبَّةٍ ۗ وَٱللَّهُ يُضَـٰعِفُ لِمَن يَشَآءُ ۗ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ
+      </p>
+
+      <p class="verse-text">
+        "The example of those who spend their wealth in the cause of Allah is that of a grain which
+        sprouts into seven ears, each bearing one hundred grains. And Allah multiplies the reward
+        even more for whoever He wills. For Allah is All-Bountiful, All-Knowing."
+      </p>
+
+      <p class="verse-ref">— Surah Al-Baqarah (2:261)</p>
+
+      <div class="islamic-divider">
+        <span class="islamic-star"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== BANK INFORMATION ========== -->
+  <section class="bank-info">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-subtitle">Payment Methods</span>
+        <h2 class="section-title">Other Ways to Donate</h2>
+        <p class="section-desc">You can also make your donation directly through bank transfer or mobile banking.</p>
+      </div>
+
+      <div class="bank-grid">
+
+        <!-- Bank Transfer -->
+        <div class="bank-card animate-on-scroll delay-1">
+          <h4><i class="fas fa-building-columns"></i> Bank Transfer</h4>
+          <div class="bank-details">
+            <strong>Bank Name:</strong> Islami Bank Bangladesh Ltd.<br />
+            <strong>Account Name:</strong> Dua Foundation<br />
+            <strong>Account Number:</strong> 2050 1740 2030 01283<br />
+            <strong>Branch:</strong> Motijheel Corporate Branch, Dhaka<br />
+            <strong>Routing Number:</strong> 125 261 843
+          </div>
+        </div>
+
+        <!-- Mobile Banking -->
+        <div class="bank-card animate-on-scroll delay-2">
+          <h4><i class="fas fa-mobile-screen"></i> Mobile Banking</h4>
+          <div class="bank-details">
+            <strong>bKash (Merchant):</strong> 01XXX-XXXXXX<br />
+            <strong>Nagad (Merchant):</strong> 01XXX-XXXXXX<br />
+            <strong>Rocket:</strong> 01XXX-XXXXXX<br /><br />
+            <em style="font-size: 0.82rem; color: var(--text-light);">
+              Please use "Donation" as the reference when sending via mobile banking.
+            </em>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Brand -->
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="footer-logo-text">Dua Foundation</span>
+          </div>
+          <p>
+            Dua Foundation is a non-profit Islamic organization dedicated to serving humanity through
+            education, healthcare, agriculture, and community welfare programs across Bangladesh.
+          </p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Programs -->
+        <div>
+          <h4>Our Programs</h4>
+          <ul class="footer-links">
+            <li><a href="activities.html">Education Program</a></li>
+            <li><a href="activities.html">Healthcare Services</a></li>
+            <li><a href="activities.html">Agriculture Support</a></li>
+            <li><a href="activities.html">Community Service</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div>
+          <h4>Contact Us</h4>
+          <ul class="footer-contact">
+            <li>
+              <span class="icon"><i class="fas fa-location-dot"></i></span>
+              <span>Dhaka, Bangladesh</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fas fa-phone"></i></span>
+              <span>+880 1XXX-XXXXXX</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fas fa-envelope"></i></span>
+              <span>info@duafoundation.org</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 <span>Dua Foundation</span>. All rights reserved. Serving humanity with faith and compassion.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <!-- JS -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
